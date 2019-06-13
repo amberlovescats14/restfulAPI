@@ -1,0 +1,28 @@
+{
+  "name": "restfulAPI",
+  "version": "1.0.0",
+  "description": "with express and mongo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-watch": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amberlovescats14/restfulAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amberlovescats14/restfulAPI/issues"
+  },
+  "homepage": "https://github.com/amberlovescats14/restfulAPI#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
